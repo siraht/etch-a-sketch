@@ -1,0 +1,40 @@
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    /* grid-template-columns: repeat(16, 8px);
+    grid-template-rows: repeat(16, 8px); */
+    grid-gap: 4px;
+}
+
+.griddiv {
+    background-color: aquamarine;
+}
+
+.active {
+    background-color: plum;
+}
+
+.button-container {
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.clear-button {
+    padding: 1rem;
+    background-color: plum;
+    border-radius: 4px;
+    border-style: hidden;
+}
+
+.clear-button:hover {
+    background-color: aquamarine;
+}
