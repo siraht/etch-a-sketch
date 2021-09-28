@@ -10,15 +10,10 @@ let setGrid = (num) => {
     for (let index = 0; index < (num * num); index++) {
         newDiv = document.createElement('div');
         newDiv.classList.add('griddiv');
-        container.appendChild(newDiv);
-    }
-
-    let gridDivs = document.querySelectorAll('.griddiv');
-
-    for (let index = 0; index < gridDivs.length; index++) {
-        gridDivs[index].addEventListener('mouseover', function(e){
+        newDiv.addEventListener('mouseover', function(e){
             e.currentTarget.classList.add('active');
-        })  
+        })
+        container.appendChild(newDiv);
     }
 }
 setGrid(16);

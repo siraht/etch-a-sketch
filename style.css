@@ -9,7 +9,6 @@
     display: grid;
     /* grid-template-columns: repeat(16, 8px);
     grid-template-rows: repeat(16, 8px); */
-    grid-gap: 4px;
 }
 
 .griddiv {
